@@ -61,7 +61,7 @@ Pager.prototype.getBottomNav = function(nowPage, totalCount) {
 */
 Pager.prototype.getTotalPage = function(totalCount) {
   var options = this.options;
-  return Math.ceil(totalCount / options.itemPerPage);
+  return Math.ceil(totalCount / options.itemPerPage) || 0;
 };
 
 Pager.prototype.getSkip = function(page) {
