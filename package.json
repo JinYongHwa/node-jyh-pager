@@ -1,6 +1,6 @@
 {
   "name": "node-jyh-pager",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "node.js pagination ",
   "main": "index.js",
   "scripts": {

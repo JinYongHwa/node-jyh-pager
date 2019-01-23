@@ -27,6 +27,7 @@ console.log(nav)
   isPrev: false,
   isNext: false,
   totalPage: 10,
+  totalCount:100,
   itemPerPage: 10 }
 */
 

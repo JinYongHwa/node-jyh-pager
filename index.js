@@ -51,6 +51,7 @@ Pager.prototype.getBottomNav = function(nowPage, totalCount) {
 
   retObj.totalPage = this.getTotalPage(totalCount);
   retObj.itemPerPage = options.itemPerPage;
+  retObj.totalCount = totalCount
 
   return retObj;
 
